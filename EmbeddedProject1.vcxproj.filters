@@ -492,5 +492,18 @@
     <None Include="stm32.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="Libraries\Debounce\Debounce.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmbeddedProject1.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
