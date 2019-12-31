@@ -1,6 +1,6 @@
 #include <Debounce.h>
 
-// конструктор
+// конструктор класса
 Debounce::Debounce(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, uint32_t filterTime) {
 
 	_GPIOx = GPIOx;
